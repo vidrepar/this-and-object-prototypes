@@ -1,0 +1,22 @@
+{
+  "name": "this-and-object-prototypes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "classes-vs-objects-ES6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidrepar/this-and-object-prototypes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidrepar/this-and-object-prototypes/issues"
+  },
+  "homepage": "https://github.com/vidrepar/this-and-object-prototypes#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
