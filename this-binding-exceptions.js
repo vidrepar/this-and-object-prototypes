@@ -50,3 +50,13 @@ o.iphone();
   4. Default                                    >> undefined in strict mode, global object otherwise
 
 */
+
+// Call vs. bind
+
+function aa(){
+  console.log('Wooow, executed!');
+}
+
+var bb = aa.call(); // Executed here
+var cc = aa.bind();
+cc(); // Executed here ( at a later time )
