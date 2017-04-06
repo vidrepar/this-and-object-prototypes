@@ -14,8 +14,8 @@ obj1.foo(2);
 console.log(obj1.a); // 2
 
 // explicit
-obj1.foo.call( obj2, 3 );
-console.log(obj2.a); // 3
+obj1.foo.bind( obj2, 3 );
+console.log("test ",obj2.a); // 3
 
 // new
 var bar = new obj1.foo(4);
