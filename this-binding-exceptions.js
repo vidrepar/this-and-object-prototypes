@@ -52,6 +52,7 @@ o.iphone();
 */
 
 // Call vs. bind
+// https://www.hacksparrow.com/javascript-bind-vs-apply-and-call.html
 
 function aa(){
   console.log('Wooow, executed!');
